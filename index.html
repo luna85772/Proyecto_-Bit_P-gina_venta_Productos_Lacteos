@@ -1,37 +1,44 @@
+<!-- Comentarios en HTML -->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=fullscreen, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Clase 4</title>
+  </head>
+  <body>
+    <h1>Demo Clase 4</h1>
+    <p>Abra la consola del navegador para ver las salidas.</p>
 
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<h1>Primera pagina web -  venta de productos lacteos</h1>
-<body>
-    <header>
-        <nav class="navbar">
-            <h2 class= "logo">Ventas de productos online - productos lacteos</h2>
-                <ul class="menu">
-                    <li class="lista"><a href="#inicio">Inicio</a></li>
-                    <li class="lista"><a href="#acerca">Acerca</a></li>
-                    <li class="lista"><a href="#Productos">productos</a></li>
-                    <li class="lista"><a href="#Contacto">Contacto</a></li>
-                </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <div>
-                <img src="" alt="">
-            </div>
-        </section>
-    </main>
+    <section id="main-section">
+      <h2>Soy un elemento con ID "main-section"</h2>
+      <p name="para-name">Este párrafo tiene name="para-name"</p>
+      <p name="para-name">Este es otro párrafo con el mismo name</p>
+      <button>Botón genérico</button>
+      <button>Otro botón genérico</button>
+    </section>
 
+    <hr />
 
-    <script src="/Proyecto_bit_profe_javi/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <section id="interaction-zone">
+      <h3>Zona Interactiva</h3>
+      <button onclick="alert('Hiciste click en el botón click en línea')">
+        Clickeame (click en línea)
+      </button>
+      <button id="js-onclick-btn">Clickeame (JS OnClick)</button>
+      <button id="prompt-btn">Ejecutar PROMPT</button>
+      <button id="confirm-btn">Ejecutar CONFIRM</button>
+      <button id="open-window-btn">Abrir ventana</button>
+    </section>
 
-</body>
+    <hr />
+
+    <section id="innerHTML-section">
+      <p>Este contenido será reemplazado por INNERHTML</p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
