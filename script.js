@@ -1,2 +1,2 @@
-document.addEventListener
+document.addEventListener("DOMContentLoaded")
 console.log("funciona")
